@@ -14,6 +14,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore();
 export const getUsers = async (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*")
     try{
         const allEntries = []
         const querySnapshot = await getDocs(collection(db, "folody-api"));
