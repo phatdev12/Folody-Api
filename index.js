@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 
-import usersRoutes from "./routes/users.js";
+import usersRoutes from "./Routes/users.js";
 
 const app = express();
 const PORT = 3001 || process.env.PORT;
