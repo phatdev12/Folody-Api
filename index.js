@@ -1,12 +1,9 @@
 import express from "express";
-import bodyParser from "body-parser";
 
 import usersRoutes from "./Routes/users.js";
 
 const app = express();
-const PORT = process.env.PORT || 3001;
-
-app.use(bodyParser.json());
+const PORT = process.env.PORT || 3000;
 
 app.use("/api", usersRoutes);
 app.get("/", (req, res) => res.send("Welcome to the Users API!"));
