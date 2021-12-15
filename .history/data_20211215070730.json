@@ -1,0 +1,16 @@
+[
+    {
+        "type": "audio/mp3",
+        "song": "Lạ lùng",
+        "url": "https://bit.ly/3INh0UM",
+        "artist": "Vũ",
+        "keyword": ["Vũ", "Lạ lùng", "Lạ Lùng"]
+    },
+    {
+        "type": "audio/mp3",
+        "song": "Bước qua mùa cô đơn",
+        "url": "https://bit.ly/3dQ4iGx",
+        "artist": "Vũ",
+        "keyword": ["Vũ", "Bước qua mùa cô đơn", "Bước Qua Mùa Cô Đơn", "cô đơn", "Cô Đơn", "mùa thu", "Mùa thu", "Mùa Thu"]
+    }
+]
